@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>My first HTML page</title>
+        <link rel="stylesheet" href="styles.css"
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+       <style>
+            h1 {
+                color: green;
+            }
+            p {
+                color: blue;
+            }
+        </style>
+        
+    </head>
+
+    <body>
+
+    <header>
+        <h1 style="color:black;">Oman Thapa</h1>
+        <nav>
+            <ul>
+      <li><a href="#about">About me</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#website">Website</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+    <div class="content-box">
+        <h2>About me</h2>
+        <p>My name is Oman Thapa. I am from Nepal but currently living in Finland. I am studying Business in Information Technonlogy at Laurea University of Applied Sciences. I am excited to learn new things and make new friends.</p>
+        </div>
+        <img src="./photo.jpg" alt="My personal image" class="filter-image">
+     </section>
+   <section id="hobbies">
+    <h2>My Hobbies</h2>
+    <ol class="pseudo-list"> 
+        <li>Dancing</li>
+        <li>Singing</li>
+        <li>Cooking</li>
+        <li>Traveling</li>
+        <li>Reading</li>
+    </ol>
+    </section>
+    <section id="Website">
+    <h2> My Favorite Websites</h2>
+    <p>
+    <a href="https://www.laurea.fi">Visit Laurea</a>
+    </p>
+ </section>
+ <section id="courses">
+    <h2> My courses</h2>
+    <blockquote class="quote">
+        "Life is not about having everything; it is about appreciating what you have"
+    </blockquote>
+<table> 
+    <tr>
+        <th>Website Development</th>
+        <th>Units I study in the course</th>
+    </tr>
+    <tr>
+        <td>HTML Basics</td>
+        <td>Web page development</td>
+    </tr>
+    <tr>
+        <td>CSS Basics</td>
+        <td>Styling web pages</td>
+    </tr>
+</table>
+</section>
+<section id="contact">
+<h2> Contact Information</h2>
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    
+    <br><br>
+
+    <input type="submit" value="Submit">
+</form>
+<hr>
+        <h2> Workshops 3 Practice Elements</h2>
+        <div styles="display: flex; gap: 40px; align-item: center; margin-top: 20px;">
+        <button class="transition-button">Hover me</button>
+        <div class="animation-box"></div>
+        </div>
+        </section>
+        <section id="grid">
+            <h2>Task 2: Create a Grid Layout</h2>
+            <div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>
+</div>
+</section>
+<section id="task3-flex">
+    <h2>Task 3:Create a Flexbox Layout</h2>
+    <div class="flex-container">
+  <div class="box">Box 1</div>
+  <div class="box">Box 2</div>
+  <div class="box">Box 3</div>
+</div>
+</section>
+<section id="task4-media">
+    <h2>Task 4:Add Media Queries</h2>
+    <div class="responsive-box">Resize the window to see the effect</div>
+</section>
+</main>
+<footer>
+    <p>Copyright 2025 & copy;Oman Thapa</p>
+</footer>    
+</body>
+</html>
